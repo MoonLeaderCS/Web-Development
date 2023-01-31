@@ -1,0 +1,142 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://cdn.pixabay.com/photo/2016/11/19/12/43/dark-1839088_960_720.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    
+    /* overflow: hidden; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.left img {
+    width: 150px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    color: rgb(248, 10, 10);
+    line-height: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: inline-block;
+    width: 100%;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    
+    /* float: right; */
+}
+
+.navbar {
+    display: inline-block;
+    width: auto;
+    top: 10px;
+    left: auto;
+    margin: 10px 250px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 50px 20px;
+    
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(209, 106, 68);
+    
+}
+
+.btn,
+.btn1 {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(115, 19, 19);
+}
+
+.btn1:hover {
+    background-color: rgb(128, 150, 29);
+}
+
+.form-group input:hover {
+    background-color: rgb(215, 238, 125);
+}
+
+.container {
+    border: 2px solid rgb(55, 55, 150);
+    margin: 150px 60px;
+    padding: 50px;
+    width: 25%;
+    border-radius: 80px;
+    /* margin: auto; */
+    float: right;
+    
+    background: url('https://cdn.pixabay.com/photo/2017/05/25/15/08/jogging-2343558_960_720.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 325px;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    color: rgb(6, 249, 42);
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    font-size: 20px;
+    border-radius: 50px;
+}
